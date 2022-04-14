@@ -1,0 +1,191 @@
+TestRXSwift/Podfile
+TestRXSwift/Podfile.lock
+TestRXSwift/Pods/Manifest.lock
+TestRXSwift/Pods/Pods.xcodeproj/project.pbxproj
+TestRXSwift/Pods/Pods.xcodeproj/xcuserdata/marcodifresco.xcuserdatad/xcschemes/Pods-TestRXSwift.xcscheme
+TestRXSwift/Pods/Pods.xcodeproj/xcuserdata/marcodifresco.xcuserdatad/xcschemes/RxSwift.xcscheme
+TestRXSwift/Pods/Pods.xcodeproj/xcuserdata/marcodifresco.xcuserdatad/xcschemes/xcschememanagement.plist
+TestRXSwift/Pods/RxSwift/LICENSE.md
+TestRXSwift/Pods/RxSwift/README.md
+TestRXSwift/Pods/RxSwift/Platform/AtomicInt.swift
+TestRXSwift/Pods/RxSwift/Platform/DispatchQueue+Extensions.swift
+TestRXSwift/Pods/RxSwift/Platform/Platform.Darwin.swift
+TestRXSwift/Pods/RxSwift/Platform/Platform.Linux.swift
+TestRXSwift/Pods/RxSwift/Platform/RecursiveLock.swift
+TestRXSwift/Pods/RxSwift/Platform/DataStructures/Bag.swift
+TestRXSwift/Pods/RxSwift/Platform/DataStructures/InfiniteSequence.swift
+TestRXSwift/Pods/RxSwift/Platform/DataStructures/PriorityQueue.swift
+TestRXSwift/Pods/RxSwift/Platform/DataStructures/Queue.swift
+TestRXSwift/Pods/RxSwift/RxSwift/AnyObserver.swift
+TestRXSwift/Pods/RxSwift/RxSwift/Binder.swift
+TestRXSwift/Pods/RxSwift/RxSwift/Cancelable.swift
+TestRXSwift/Pods/RxSwift/RxSwift/ConnectableObservableType.swift
+TestRXSwift/Pods/RxSwift/RxSwift/Date+Dispatch.swift
+TestRXSwift/Pods/RxSwift/RxSwift/Disposable.swift
+TestRXSwift/Pods/RxSwift/RxSwift/Errors.swift
+TestRXSwift/Pods/RxSwift/RxSwift/Event.swift
+TestRXSwift/Pods/RxSwift/RxSwift/GroupedObservable.swift
+TestRXSwift/Pods/RxSwift/RxSwift/ImmediateSchedulerType.swift
+TestRXSwift/Pods/RxSwift/RxSwift/Observable+Concurrency.swift
+TestRXSwift/Pods/RxSwift/RxSwift/Observable.swift
+TestRXSwift/Pods/RxSwift/RxSwift/ObservableConvertibleType.swift
+TestRXSwift/Pods/RxSwift/RxSwift/ObservableType+Extensions.swift
+TestRXSwift/Pods/RxSwift/RxSwift/ObservableType.swift
+TestRXSwift/Pods/RxSwift/RxSwift/ObserverType.swift
+TestRXSwift/Pods/RxSwift/RxSwift/Reactive.swift
+TestRXSwift/Pods/RxSwift/RxSwift/Rx.swift
+TestRXSwift/Pods/RxSwift/RxSwift/RxMutableBox.swift
+TestRXSwift/Pods/RxSwift/RxSwift/SchedulerType.swift
+TestRXSwift/Pods/RxSwift/RxSwift/Concurrency/AsyncLock.swift
+TestRXSwift/Pods/RxSwift/RxSwift/Concurrency/Lock.swift
+TestRXSwift/Pods/RxSwift/RxSwift/Concurrency/LockOwnerType.swift
+TestRXSwift/Pods/RxSwift/RxSwift/Concurrency/SynchronizedDisposeType.swift
+TestRXSwift/Pods/RxSwift/RxSwift/Concurrency/SynchronizedOnType.swift
+TestRXSwift/Pods/RxSwift/RxSwift/Concurrency/SynchronizedUnsubscribeType.swift
+TestRXSwift/Pods/RxSwift/RxSwift/Disposables/AnonymousDisposable.swift
+TestRXSwift/Pods/RxSwift/RxSwift/Disposables/BinaryDisposable.swift
+TestRXSwift/Pods/RxSwift/RxSwift/Disposables/BooleanDisposable.swift
+TestRXSwift/Pods/RxSwift/RxSwift/Disposables/CompositeDisposable.swift
+TestRXSwift/Pods/RxSwift/RxSwift/Disposables/Disposables.swift
+TestRXSwift/Pods/RxSwift/RxSwift/Disposables/DisposeBag.swift
+TestRXSwift/Pods/RxSwift/RxSwift/Disposables/DisposeBase.swift
+TestRXSwift/Pods/RxSwift/RxSwift/Disposables/NopDisposable.swift
+TestRXSwift/Pods/RxSwift/RxSwift/Disposables/RefCountDisposable.swift
+TestRXSwift/Pods/RxSwift/RxSwift/Disposables/ScheduledDisposable.swift
+TestRXSwift/Pods/RxSwift/RxSwift/Disposables/SerialDisposable.swift
+TestRXSwift/Pods/RxSwift/RxSwift/Disposables/SingleAssignmentDisposable.swift
+TestRXSwift/Pods/RxSwift/RxSwift/Disposables/SubscriptionDisposable.swift
+TestRXSwift/Pods/RxSwift/RxSwift/Extensions/Bag+Rx.swift
+TestRXSwift/Pods/RxSwift/RxSwift/Observables/AddRef.swift
+TestRXSwift/Pods/RxSwift/RxSwift/Observables/Amb.swift
+TestRXSwift/Pods/RxSwift/RxSwift/Observables/AsMaybe.swift
+TestRXSwift/Pods/RxSwift/RxSwift/Observables/AsSingle.swift
+TestRXSwift/Pods/RxSwift/RxSwift/Observables/Buffer.swift
+TestRXSwift/Pods/RxSwift/RxSwift/Observables/Catch.swift
+TestRXSwift/Pods/RxSwift/RxSwift/Observables/CombineLatest+arity.swift
+TestRXSwift/Pods/RxSwift/RxSwift/Observables/CombineLatest+Collection.swift
+TestRXSwift/Pods/RxSwift/RxSwift/Observables/CombineLatest.swift
+TestRXSwift/Pods/RxSwift/RxSwift/Observables/CompactMap.swift
+TestRXSwift/Pods/RxSwift/RxSwift/Observables/Concat.swift
+TestRXSwift/Pods/RxSwift/RxSwift/Observables/Create.swift
+TestRXSwift/Pods/RxSwift/RxSwift/Observables/Debounce.swift
+TestRXSwift/Pods/RxSwift/RxSwift/Observables/Debug.swift
+TestRXSwift/Pods/RxSwift/RxSwift/Observables/Decode.swift
+TestRXSwift/Pods/RxSwift/RxSwift/Observables/DefaultIfEmpty.swift
+TestRXSwift/Pods/RxSwift/RxSwift/Observables/Deferred.swift
+TestRXSwift/Pods/RxSwift/RxSwift/Observables/Delay.swift
+TestRXSwift/Pods/RxSwift/RxSwift/Observables/DelaySubscription.swift
+TestRXSwift/Pods/RxSwift/RxSwift/Observables/Dematerialize.swift
+TestRXSwift/Pods/RxSwift/RxSwift/Observables/DistinctUntilChanged.swift
+TestRXSwift/Pods/RxSwift/RxSwift/Observables/Do.swift
+TestRXSwift/Pods/RxSwift/RxSwift/Observables/ElementAt.swift
+TestRXSwift/Pods/RxSwift/RxSwift/Observables/Empty.swift
+TestRXSwift/Pods/RxSwift/RxSwift/Observables/Enumerated.swift
+TestRXSwift/Pods/RxSwift/RxSwift/Observables/Error.swift
+TestRXSwift/Pods/RxSwift/RxSwift/Observables/Filter.swift
+TestRXSwift/Pods/RxSwift/RxSwift/Observables/First.swift
+TestRXSwift/Pods/RxSwift/RxSwift/Observables/Generate.swift
+TestRXSwift/Pods/RxSwift/RxSwift/Observables/GroupBy.swift
+TestRXSwift/Pods/RxSwift/RxSwift/Observables/Just.swift
+TestRXSwift/Pods/RxSwift/RxSwift/Observables/Map.swift
+TestRXSwift/Pods/RxSwift/RxSwift/Observables/Materialize.swift
+TestRXSwift/Pods/RxSwift/RxSwift/Observables/Merge.swift
+TestRXSwift/Pods/RxSwift/RxSwift/Observables/Multicast.swift
+TestRXSwift/Pods/RxSwift/RxSwift/Observables/Never.swift
+TestRXSwift/Pods/RxSwift/RxSwift/Observables/ObserveOn.swift
+TestRXSwift/Pods/RxSwift/RxSwift/Observables/Optional.swift
+TestRXSwift/Pods/RxSwift/RxSwift/Observables/Producer.swift
+TestRXSwift/Pods/RxSwift/RxSwift/Observables/Range.swift
+TestRXSwift/Pods/RxSwift/RxSwift/Observables/Reduce.swift
+TestRXSwift/Pods/RxSwift/RxSwift/Observables/Repeat.swift
+TestRXSwift/Pods/RxSwift/RxSwift/Observables/RetryWhen.swift
+TestRXSwift/Pods/RxSwift/RxSwift/Observables/Sample.swift
+TestRXSwift/Pods/RxSwift/RxSwift/Observables/Scan.swift
+TestRXSwift/Pods/RxSwift/RxSwift/Observables/Sequence.swift
+TestRXSwift/Pods/RxSwift/RxSwift/Observables/ShareReplayScope.swift
+TestRXSwift/Pods/RxSwift/RxSwift/Observables/SingleAsync.swift
+TestRXSwift/Pods/RxSwift/RxSwift/Observables/Sink.swift
+TestRXSwift/Pods/RxSwift/RxSwift/Observables/Skip.swift
+TestRXSwift/Pods/RxSwift/RxSwift/Observables/SkipUntil.swift
+TestRXSwift/Pods/RxSwift/RxSwift/Observables/SkipWhile.swift
+TestRXSwift/Pods/RxSwift/RxSwift/Observables/StartWith.swift
+TestRXSwift/Pods/RxSwift/RxSwift/Observables/SubscribeOn.swift
+TestRXSwift/Pods/RxSwift/RxSwift/Observables/Switch.swift
+TestRXSwift/Pods/RxSwift/RxSwift/Observables/SwitchIfEmpty.swift
+TestRXSwift/Pods/RxSwift/RxSwift/Observables/Take.swift
+TestRXSwift/Pods/RxSwift/RxSwift/Observables/TakeLast.swift
+TestRXSwift/Pods/RxSwift/RxSwift/Observables/TakeWithPredicate.swift
+TestRXSwift/Pods/RxSwift/RxSwift/Observables/Throttle.swift
+TestRXSwift/Pods/RxSwift/RxSwift/Observables/Timeout.swift
+TestRXSwift/Pods/RxSwift/RxSwift/Observables/Timer.swift
+TestRXSwift/Pods/RxSwift/RxSwift/Observables/ToArray.swift
+TestRXSwift/Pods/RxSwift/RxSwift/Observables/Using.swift
+TestRXSwift/Pods/RxSwift/RxSwift/Observables/Window.swift
+TestRXSwift/Pods/RxSwift/RxSwift/Observables/WithLatestFrom.swift
+TestRXSwift/Pods/RxSwift/RxSwift/Observables/WithUnretained.swift
+TestRXSwift/Pods/RxSwift/RxSwift/Observables/Zip+arity.swift
+TestRXSwift/Pods/RxSwift/RxSwift/Observables/Zip+Collection.swift
+TestRXSwift/Pods/RxSwift/RxSwift/Observables/Zip.swift
+TestRXSwift/Pods/RxSwift/RxSwift/Observers/AnonymousObserver.swift
+TestRXSwift/Pods/RxSwift/RxSwift/Observers/ObserverBase.swift
+TestRXSwift/Pods/RxSwift/RxSwift/Observers/TailRecursiveSink.swift
+TestRXSwift/Pods/RxSwift/RxSwift/Schedulers/ConcurrentDispatchQueueScheduler.swift
+TestRXSwift/Pods/RxSwift/RxSwift/Schedulers/ConcurrentMainScheduler.swift
+TestRXSwift/Pods/RxSwift/RxSwift/Schedulers/CurrentThreadScheduler.swift
+TestRXSwift/Pods/RxSwift/RxSwift/Schedulers/HistoricalScheduler.swift
+TestRXSwift/Pods/RxSwift/RxSwift/Schedulers/HistoricalSchedulerTimeConverter.swift
+TestRXSwift/Pods/RxSwift/RxSwift/Schedulers/MainScheduler.swift
+TestRXSwift/Pods/RxSwift/RxSwift/Schedulers/OperationQueueScheduler.swift
+TestRXSwift/Pods/RxSwift/RxSwift/Schedulers/RecursiveScheduler.swift
+TestRXSwift/Pods/RxSwift/RxSwift/Schedulers/SchedulerServices+Emulation.swift
+TestRXSwift/Pods/RxSwift/RxSwift/Schedulers/SerialDispatchQueueScheduler.swift
+TestRXSwift/Pods/RxSwift/RxSwift/Schedulers/VirtualTimeConverterType.swift
+TestRXSwift/Pods/RxSwift/RxSwift/Schedulers/VirtualTimeScheduler.swift
+TestRXSwift/Pods/RxSwift/RxSwift/Schedulers/Internal/DispatchQueueConfiguration.swift
+TestRXSwift/Pods/RxSwift/RxSwift/Schedulers/Internal/InvocableScheduledItem.swift
+TestRXSwift/Pods/RxSwift/RxSwift/Schedulers/Internal/InvocableType.swift
+TestRXSwift/Pods/RxSwift/RxSwift/Schedulers/Internal/ScheduledItem.swift
+TestRXSwift/Pods/RxSwift/RxSwift/Schedulers/Internal/ScheduledItemType.swift
+TestRXSwift/Pods/RxSwift/RxSwift/Subjects/AsyncSubject.swift
+TestRXSwift/Pods/RxSwift/RxSwift/Subjects/BehaviorSubject.swift
+TestRXSwift/Pods/RxSwift/RxSwift/Subjects/PublishSubject.swift
+TestRXSwift/Pods/RxSwift/RxSwift/Subjects/ReplaySubject.swift
+TestRXSwift/Pods/RxSwift/RxSwift/Subjects/SubjectType.swift
+TestRXSwift/Pods/RxSwift/RxSwift/SwiftSupport/SwiftSupport.swift
+TestRXSwift/Pods/RxSwift/RxSwift/Traits/Infallible/Infallible+CombineLatest+arity.swift
+TestRXSwift/Pods/RxSwift/RxSwift/Traits/Infallible/Infallible+Concurrency.swift
+TestRXSwift/Pods/RxSwift/RxSwift/Traits/Infallible/Infallible+Create.swift
+TestRXSwift/Pods/RxSwift/RxSwift/Traits/Infallible/Infallible+Operators.swift
+TestRXSwift/Pods/RxSwift/RxSwift/Traits/Infallible/Infallible+Zip+arity.swift
+TestRXSwift/Pods/RxSwift/RxSwift/Traits/Infallible/Infallible.swift
+TestRXSwift/Pods/RxSwift/RxSwift/Traits/Infallible/ObservableConvertibleType+Infallible.swift
+TestRXSwift/Pods/RxSwift/RxSwift/Traits/PrimitiveSequence/Completable+AndThen.swift
+TestRXSwift/Pods/RxSwift/RxSwift/Traits/PrimitiveSequence/Completable.swift
+TestRXSwift/Pods/RxSwift/RxSwift/Traits/PrimitiveSequence/Maybe.swift
+TestRXSwift/Pods/RxSwift/RxSwift/Traits/PrimitiveSequence/ObservableType+PrimitiveSequence.swift
+TestRXSwift/Pods/RxSwift/RxSwift/Traits/PrimitiveSequence/PrimitiveSequence+Concurrency.swift
+TestRXSwift/Pods/RxSwift/RxSwift/Traits/PrimitiveSequence/PrimitiveSequence+Zip+arity.swift
+TestRXSwift/Pods/RxSwift/RxSwift/Traits/PrimitiveSequence/PrimitiveSequence.swift
+TestRXSwift/Pods/RxSwift/RxSwift/Traits/PrimitiveSequence/Single.swift
+TestRXSwift/Pods/Target Support Files/Pods-TestRXSwift/Pods-TestRXSwift-acknowledgements.markdown
+TestRXSwift/Pods/Target Support Files/Pods-TestRXSwift/Pods-TestRXSwift-acknowledgements.plist
+TestRXSwift/Pods/Target Support Files/Pods-TestRXSwift/Pods-TestRXSwift-dummy.m
+TestRXSwift/Pods/Target Support Files/Pods-TestRXSwift/Pods-TestRXSwift-frameworks-Debug-input-files.xcfilelist
+TestRXSwift/Pods/Target Support Files/Pods-TestRXSwift/Pods-TestRXSwift-frameworks-Debug-output-files.xcfilelist
+TestRXSwift/Pods/Target Support Files/Pods-TestRXSwift/Pods-TestRXSwift-frameworks-Release-input-files.xcfilelist
+TestRXSwift/Pods/Target Support Files/Pods-TestRXSwift/Pods-TestRXSwift-frameworks-Release-output-files.xcfilelist
+TestRXSwift/Pods/Target Support Files/Pods-TestRXSwift/Pods-TestRXSwift-frameworks.sh
+TestRXSwift/Pods/Target Support Files/Pods-TestRXSwift/Pods-TestRXSwift-Info.plist
+TestRXSwift/Pods/Target Support Files/Pods-TestRXSwift/Pods-TestRXSwift-umbrella.h
+TestRXSwift/Pods/Target Support Files/Pods-TestRXSwift/Pods-TestRXSwift.debug.xcconfig
+TestRXSwift/Pods/Target Support Files/Pods-TestRXSwift/Pods-TestRXSwift.modulemap
+TestRXSwift/Pods/Target Support Files/Pods-TestRXSwift/Pods-TestRXSwift.release.xcconfig
+TestRXSwift/Pods/Target Support Files/RxSwift/RxSwift-dummy.m
+TestRXSwift/Pods/Target Support Files/RxSwift/RxSwift-Info.plist
+TestRXSwift/Pods/Target Support Files/RxSwift/RxSwift-prefix.pch
+TestRXSwift/Pods/Target Support Files/RxSwift/RxSwift-umbrella.h
+TestRXSwift/Pods/Target Support Files/RxSwift/RxSwift.debug.xcconfig
+TestRXSwift/Pods/Target Support Files/RxSwift/RxSwift.modulemap
+TestRXSwift/Pods/Target Support Files/RxSwift/RxSwift.release.xcconfig
+TestRXSwift/TestRXSwift.xcworkspace/contents.xcworkspacedata
+TestRXSwift/TestRXSwift.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist
