@@ -15,11 +15,33 @@ class ViewController: UIViewController {
     var subscription: Disposable?
     var a: Int = 0
     
+    var disposeBag: DisposeBag?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         setUpButton()
         testDispose()
-        
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        self.a = 0
+        let disposeBag = DisposeBag()
+        self.disposeBag = disposeBag
+        let scheduler = SerialDispatchQueueScheduler(qos: .default)
+        Observable<Int>.interval(.milliseconds(500), scheduler: scheduler)
+            .subscribe { event in
+                self.a += 1
+                print(event)
+            }
+            .disposed(by: disposeBag)
+    }
+    
+    override func viewWillDisappear(_ animated: Bool) {
+        super.viewWillDisappear(animated)
+        print("Deallocated DisposeBag")
+        self.disposeBag = nil
+        self.subscription?.dispose()
     }
     
     func setUpButton(){
@@ -28,7 +50,7 @@ class ViewController: UIViewController {
     
     func testDispose(){
         let scheduler = SerialDispatchQueueScheduler(qos: .default)
-        self.subscription = Observable<Int>.interval(.milliseconds(500), scheduler: scheduler)
+        self.subscription =  Observable<Int>.interval(.milliseconds(500), scheduler: scheduler)
             .subscribe { event in
                 self.a += 1
                 print(event)
@@ -49,14 +71,22 @@ class ViewController: UIViewController {
          */
     }
     
+    
     @IBAction func disposeButtonTouchUpInside(_ sender: Any) {
-        self.subscription?.dispose()
         let alert = UIAlertController(title: "Stop with dispose", message: "Not the best way to use observables.\n Number of events = \(self.a)", preferredStyle: UIAlertController.Style.alert)
-        let dismissAction = UIAlertAction(title: "OK", style: UIAlertAction.Style.default) {
+        let okAction = UIAlertAction(title: "OK", style: UIAlertAction.Style.default) {
             UIAlertAction in
-            print("Yes Pressed")
+            self.subscription?.dispose()
+            print("OK Pressed")
         }
-        alert.addAction(dismissAction)
+        let pushAction = UIAlertAction(title: "Push", style: UIAlertAction.Style.default) {
+            UIAlertAction in
+            let vc = SecondViewController()
+            self.navigationController?.pushViewController(vc, animated: true)
+        }
+        
+        alert.addAction(okAction)
+        alert.addAction(pushAction)
         self.present(alert, animated: true, completion: nil)
     }
     
