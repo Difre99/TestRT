@@ -189,3 +189,138 @@ TestRXSwift/Pods/Target Support Files/RxSwift/RxSwift.modulemap
 TestRXSwift/Pods/Target Support Files/RxSwift/RxSwift.release.xcconfig
 TestRXSwift/TestRXSwift.xcworkspace/contents.xcworkspacedata
 TestRXSwift/TestRXSwift.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist
+TestRXSwift/Pods/Pods.xcodeproj/xcuserdata/marcodifresco.xcuserdatad/xcschemes/RxRelay.xcscheme
+TestRXSwift/Pods/RxCocoa/LICENSE.md
+TestRXSwift/Pods/RxCocoa/README.md
+TestRXSwift/Pods/RxCocoa/Platform/DispatchQueue+Extensions.swift
+TestRXSwift/Pods/RxCocoa/Platform/Platform.Darwin.swift
+TestRXSwift/Pods/RxCocoa/Platform/Platform.Linux.swift
+TestRXSwift/Pods/RxCocoa/Platform/RecursiveLock.swift
+TestRXSwift/Pods/RxCocoa/Platform/DataStructures/Bag.swift
+TestRXSwift/Pods/RxCocoa/Platform/DataStructures/InfiniteSequence.swift
+TestRXSwift/Pods/RxCocoa/Platform/DataStructures/PriorityQueue.swift
+TestRXSwift/Pods/RxCocoa/Platform/DataStructures/Queue.swift
+TestRXSwift/Pods/RxCocoa/RxCocoa/RxCocoa.h
+TestRXSwift/Pods/RxCocoa/RxCocoa/RxCocoa.swift
+TestRXSwift/Pods/RxCocoa/RxCocoa/Common/ControlTarget.swift
+TestRXSwift/Pods/RxCocoa/RxCocoa/Common/DelegateProxy.swift
+TestRXSwift/Pods/RxCocoa/RxCocoa/Common/DelegateProxyType.swift
+TestRXSwift/Pods/RxCocoa/RxCocoa/Common/Infallible+Bind.swift
+TestRXSwift/Pods/RxCocoa/RxCocoa/Common/Observable+Bind.swift
+TestRXSwift/Pods/RxCocoa/RxCocoa/Common/RxCocoaObjCRuntimeError+Extensions.swift
+TestRXSwift/Pods/RxCocoa/RxCocoa/Common/RxTarget.swift
+TestRXSwift/Pods/RxCocoa/RxCocoa/Common/SectionedViewDataSourceType.swift
+TestRXSwift/Pods/RxCocoa/RxCocoa/Common/TextInput.swift
+TestRXSwift/Pods/RxCocoa/RxCocoa/Foundation/KVORepresentable+CoreGraphics.swift
+TestRXSwift/Pods/RxCocoa/RxCocoa/Foundation/KVORepresentable+Swift.swift
+TestRXSwift/Pods/RxCocoa/RxCocoa/Foundation/KVORepresentable.swift
+TestRXSwift/Pods/RxCocoa/RxCocoa/Foundation/NotificationCenter+Rx.swift
+TestRXSwift/Pods/RxCocoa/RxCocoa/Foundation/NSObject+Rx+KVORepresentable.swift
+TestRXSwift/Pods/RxCocoa/RxCocoa/Foundation/NSObject+Rx+RawRepresentable.swift
+TestRXSwift/Pods/RxCocoa/RxCocoa/Foundation/NSObject+Rx.swift
+TestRXSwift/Pods/RxCocoa/RxCocoa/Foundation/URLSession+Rx.swift
+TestRXSwift/Pods/RxCocoa/RxCocoa/iOS/NSTextStorage+Rx.swift
+TestRXSwift/Pods/RxCocoa/RxCocoa/iOS/UIActivityIndicatorView+Rx.swift
+TestRXSwift/Pods/RxCocoa/RxCocoa/iOS/UIApplication+Rx.swift
+TestRXSwift/Pods/RxCocoa/RxCocoa/iOS/UIBarButtonItem+Rx.swift
+TestRXSwift/Pods/RxCocoa/RxCocoa/iOS/UIButton+Rx.swift
+TestRXSwift/Pods/RxCocoa/RxCocoa/iOS/UICollectionView+Rx.swift
+TestRXSwift/Pods/RxCocoa/RxCocoa/iOS/UIControl+Rx.swift
+TestRXSwift/Pods/RxCocoa/RxCocoa/iOS/UIDatePicker+Rx.swift
+TestRXSwift/Pods/RxCocoa/RxCocoa/iOS/UIGestureRecognizer+Rx.swift
+TestRXSwift/Pods/RxCocoa/RxCocoa/iOS/UINavigationController+Rx.swift
+TestRXSwift/Pods/RxCocoa/RxCocoa/iOS/UIPickerView+Rx.swift
+TestRXSwift/Pods/RxCocoa/RxCocoa/iOS/UIRefreshControl+Rx.swift
+TestRXSwift/Pods/RxCocoa/RxCocoa/iOS/UIScrollView+Rx.swift
+TestRXSwift/Pods/RxCocoa/RxCocoa/iOS/UISearchBar+Rx.swift
+TestRXSwift/Pods/RxCocoa/RxCocoa/iOS/UISearchController+Rx.swift
+TestRXSwift/Pods/RxCocoa/RxCocoa/iOS/UISegmentedControl+Rx.swift
+TestRXSwift/Pods/RxCocoa/RxCocoa/iOS/UISlider+Rx.swift
+TestRXSwift/Pods/RxCocoa/RxCocoa/iOS/UIStepper+Rx.swift
+TestRXSwift/Pods/RxCocoa/RxCocoa/iOS/UISwitch+Rx.swift
+TestRXSwift/Pods/RxCocoa/RxCocoa/iOS/UITabBar+Rx.swift
+TestRXSwift/Pods/RxCocoa/RxCocoa/iOS/UITabBarController+Rx.swift
+TestRXSwift/Pods/RxCocoa/RxCocoa/iOS/UITableView+Rx.swift
+TestRXSwift/Pods/RxCocoa/RxCocoa/iOS/UITextField+Rx.swift
+TestRXSwift/Pods/RxCocoa/RxCocoa/iOS/UITextView+Rx.swift
+TestRXSwift/Pods/RxCocoa/RxCocoa/iOS/WKWebView+Rx.swift
+TestRXSwift/Pods/RxCocoa/RxCocoa/iOS/DataSources/RxCollectionViewReactiveArrayDataSource.swift
+TestRXSwift/Pods/RxCocoa/RxCocoa/iOS/DataSources/RxPickerViewAdapter.swift
+TestRXSwift/Pods/RxCocoa/RxCocoa/iOS/DataSources/RxTableViewReactiveArrayDataSource.swift
+TestRXSwift/Pods/RxCocoa/RxCocoa/iOS/Events/ItemEvents.swift
+TestRXSwift/Pods/RxCocoa/RxCocoa/iOS/Protocols/RxCollectionViewDataSourceType.swift
+TestRXSwift/Pods/RxCocoa/RxCocoa/iOS/Protocols/RxPickerViewDataSourceType.swift
+TestRXSwift/Pods/RxCocoa/RxCocoa/iOS/Protocols/RxTableViewDataSourceType.swift
+TestRXSwift/Pods/RxCocoa/RxCocoa/iOS/Proxies/RxCollectionViewDataSourcePrefetchingProxy.swift
+TestRXSwift/Pods/RxCocoa/RxCocoa/iOS/Proxies/RxCollectionViewDataSourceProxy.swift
+TestRXSwift/Pods/RxCocoa/RxCocoa/iOS/Proxies/RxCollectionViewDelegateProxy.swift
+TestRXSwift/Pods/RxCocoa/RxCocoa/iOS/Proxies/RxNavigationControllerDelegateProxy.swift
+TestRXSwift/Pods/RxCocoa/RxCocoa/iOS/Proxies/RxPickerViewDataSourceProxy.swift
+TestRXSwift/Pods/RxCocoa/RxCocoa/iOS/Proxies/RxPickerViewDelegateProxy.swift
+TestRXSwift/Pods/RxCocoa/RxCocoa/iOS/Proxies/RxScrollViewDelegateProxy.swift
+TestRXSwift/Pods/RxCocoa/RxCocoa/iOS/Proxies/RxSearchBarDelegateProxy.swift
+TestRXSwift/Pods/RxCocoa/RxCocoa/iOS/Proxies/RxSearchControllerDelegateProxy.swift
+TestRXSwift/Pods/RxCocoa/RxCocoa/iOS/Proxies/RxTabBarControllerDelegateProxy.swift
+TestRXSwift/Pods/RxCocoa/RxCocoa/iOS/Proxies/RxTabBarDelegateProxy.swift
+TestRXSwift/Pods/RxCocoa/RxCocoa/iOS/Proxies/RxTableViewDataSourcePrefetchingProxy.swift
+TestRXSwift/Pods/RxCocoa/RxCocoa/iOS/Proxies/RxTableViewDataSourceProxy.swift
+TestRXSwift/Pods/RxCocoa/RxCocoa/iOS/Proxies/RxTableViewDelegateProxy.swift
+TestRXSwift/Pods/RxCocoa/RxCocoa/iOS/Proxies/RxTextStorageDelegateProxy.swift
+TestRXSwift/Pods/RxCocoa/RxCocoa/iOS/Proxies/RxTextViewDelegateProxy.swift
+TestRXSwift/Pods/RxCocoa/RxCocoa/iOS/Proxies/RxWKNavigationDelegateProxy.swift
+TestRXSwift/Pods/RxCocoa/RxCocoa/macOS/NSButton+Rx.swift
+TestRXSwift/Pods/RxCocoa/RxCocoa/macOS/NSControl+Rx.swift
+TestRXSwift/Pods/RxCocoa/RxCocoa/macOS/NSSlider+Rx.swift
+TestRXSwift/Pods/RxCocoa/RxCocoa/macOS/NSTextField+Rx.swift
+TestRXSwift/Pods/RxCocoa/RxCocoa/macOS/NSTextView+Rx.swift
+TestRXSwift/Pods/RxCocoa/RxCocoa/macOS/NSView+Rx.swift
+TestRXSwift/Pods/RxCocoa/RxCocoa/Runtime/_RX.m
+TestRXSwift/Pods/RxCocoa/RxCocoa/Runtime/_RXDelegateProxy.m
+TestRXSwift/Pods/RxCocoa/RxCocoa/Runtime/_RXKVOObserver.m
+TestRXSwift/Pods/RxCocoa/RxCocoa/Runtime/_RXObjCRuntime.m
+TestRXSwift/Pods/RxCocoa/RxCocoa/Runtime/include/_RX.h
+TestRXSwift/Pods/RxCocoa/RxCocoa/Runtime/include/_RXDelegateProxy.h
+TestRXSwift/Pods/RxCocoa/RxCocoa/Runtime/include/_RXKVOObserver.h
+TestRXSwift/Pods/RxCocoa/RxCocoa/Runtime/include/_RXObjCRuntime.h
+TestRXSwift/Pods/RxCocoa/RxCocoa/Runtime/include/RxCocoaRuntime.h
+TestRXSwift/Pods/RxCocoa/RxCocoa/Traits/ControlEvent.swift
+TestRXSwift/Pods/RxCocoa/RxCocoa/Traits/ControlProperty.swift
+TestRXSwift/Pods/RxCocoa/RxCocoa/Traits/Driver/BehaviorRelay+Driver.swift
+TestRXSwift/Pods/RxCocoa/RxCocoa/Traits/Driver/ControlEvent+Driver.swift
+TestRXSwift/Pods/RxCocoa/RxCocoa/Traits/Driver/ControlProperty+Driver.swift
+TestRXSwift/Pods/RxCocoa/RxCocoa/Traits/Driver/Driver+Subscription.swift
+TestRXSwift/Pods/RxCocoa/RxCocoa/Traits/Driver/Driver.swift
+TestRXSwift/Pods/RxCocoa/RxCocoa/Traits/Driver/ObservableConvertibleType+Driver.swift
+TestRXSwift/Pods/RxCocoa/RxCocoa/Traits/SharedSequence/ObservableConvertibleType+SharedSequence.swift
+TestRXSwift/Pods/RxCocoa/RxCocoa/Traits/SharedSequence/SchedulerType+SharedSequence.swift
+TestRXSwift/Pods/RxCocoa/RxCocoa/Traits/SharedSequence/SharedSequence+Concurrency.swift
+TestRXSwift/Pods/RxCocoa/RxCocoa/Traits/SharedSequence/SharedSequence+Operators+arity.swift
+TestRXSwift/Pods/RxCocoa/RxCocoa/Traits/SharedSequence/SharedSequence+Operators.swift
+TestRXSwift/Pods/RxCocoa/RxCocoa/Traits/SharedSequence/SharedSequence.swift
+TestRXSwift/Pods/RxCocoa/RxCocoa/Traits/Signal/ControlEvent+Signal.swift
+TestRXSwift/Pods/RxCocoa/RxCocoa/Traits/Signal/ObservableConvertibleType+Signal.swift
+TestRXSwift/Pods/RxCocoa/RxCocoa/Traits/Signal/PublishRelay+Signal.swift
+TestRXSwift/Pods/RxCocoa/RxCocoa/Traits/Signal/Signal+Subscription.swift
+TestRXSwift/Pods/RxCocoa/RxCocoa/Traits/Signal/Signal.swift
+TestRXSwift/Pods/RxRelay/LICENSE.md
+TestRXSwift/Pods/RxRelay/README.md
+TestRXSwift/Pods/RxRelay/RxRelay/BehaviorRelay.swift
+TestRXSwift/Pods/RxRelay/RxRelay/Observable+Bind.swift
+TestRXSwift/Pods/RxRelay/RxRelay/PublishRelay.swift
+TestRXSwift/Pods/RxRelay/RxRelay/ReplayRelay.swift
+TestRXSwift/Pods/RxRelay/RxRelay/Utils.swift
+TestRXSwift/Pods/Target Support Files/RxCocoa/RxCocoa-dummy.m
+TestRXSwift/Pods/Target Support Files/RxCocoa/RxCocoa-Info.plist
+TestRXSwift/Pods/Target Support Files/RxCocoa/RxCocoa-prefix.pch
+TestRXSwift/Pods/Target Support Files/RxCocoa/RxCocoa-umbrella.h
+TestRXSwift/Pods/Target Support Files/RxCocoa/RxCocoa.debug.xcconfig
+TestRXSwift/Pods/Target Support Files/RxCocoa/RxCocoa.modulemap
+TestRXSwift/Pods/Target Support Files/RxCocoa/RxCocoa.release.xcconfig
+TestRXSwift/Pods/Target Support Files/RxRelay/RxRelay-dummy.m
+TestRXSwift/Pods/Target Support Files/RxRelay/RxRelay-Info.plist
+TestRXSwift/Pods/Target Support Files/RxRelay/RxRelay-prefix.pch
+TestRXSwift/Pods/Target Support Files/RxRelay/RxRelay-umbrella.h
+TestRXSwift/Pods/Target Support Files/RxRelay/RxRelay.debug.xcconfig
+TestRXSwift/Pods/Target Support Files/RxRelay/RxRelay.modulemap
+TestRXSwift/Pods/Target Support Files/RxRelay/RxRelay.release.xcconfig
+TestRXSwift/TestRXSwift.xcworkspace/xcshareddata/swiftpm/Package.resolved
