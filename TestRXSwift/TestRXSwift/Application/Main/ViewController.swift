@@ -81,7 +81,7 @@ class ViewController: UIViewController {
         }
         let pushAction = UIAlertAction(title: "Push", style: UIAlertAction.Style.default) {
             UIAlertAction in
-            let vc = SecondViewController()
+            let vc = CoinBaseViewController(nibName: "CoinBaseViewController", bundle: nil)
             self.navigationController?.pushViewController(vc, animated: true)
         }
         

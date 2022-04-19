@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		3FA73D8C71FE82076D062A57 /* Pods_TestRXSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47500F55503F96B531BB2AB3 /* Pods_TestRXSwift.framework */; };
+		BD03D23B280EF48600D0BC82 /* CoinTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD03D239280EF48600D0BC82 /* CoinTableViewCell.swift */; };
+		BD03D23C280EF48600D0BC82 /* CoinTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD03D23A280EF48600D0BC82 /* CoinTableViewCell.xib */; };
+		BD81D314280EEC0D0011C5CE /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = BD81D313280EEC0D0011C5CE /* Alamofire */; };
+		BD81D318280EEDD10011C5CE /* CoinBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD81D316280EEDD10011C5CE /* CoinBaseViewController.swift */; };
+		BD81D319280EEDD10011C5CE /* CoinBaseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD81D317280EEDD10011C5CE /* CoinBaseViewController.xib */; };
 		BDA84A6728086B9A00C571A5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA84A6628086B9A00C571A5 /* AppDelegate.swift */; };
 		BDA84A6928086B9A00C571A5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA84A6828086B9A00C571A5 /* SceneDelegate.swift */; };
 		BDA84A6B28086B9A00C571A5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA84A6A28086B9A00C571A5 /* ViewController.swift */; };
@@ -21,6 +26,10 @@
 		1037BA8258CAE398DE5A5DCA /* Pods-TestRXSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestRXSwift.debug.xcconfig"; path = "Target Support Files/Pods-TestRXSwift/Pods-TestRXSwift.debug.xcconfig"; sourceTree = "<group>"; };
 		2C3AE9FCACCA17CAE850324C /* Pods-TestRXSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestRXSwift.release.xcconfig"; path = "Target Support Files/Pods-TestRXSwift/Pods-TestRXSwift.release.xcconfig"; sourceTree = "<group>"; };
 		47500F55503F96B531BB2AB3 /* Pods_TestRXSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestRXSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD03D239280EF48600D0BC82 /* CoinTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinTableViewCell.swift; sourceTree = "<group>"; };
+		BD03D23A280EF48600D0BC82 /* CoinTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CoinTableViewCell.xib; sourceTree = "<group>"; };
+		BD81D316280EEDD10011C5CE /* CoinBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinBaseViewController.swift; sourceTree = "<group>"; };
+		BD81D317280EEDD10011C5CE /* CoinBaseViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CoinBaseViewController.xib; sourceTree = "<group>"; };
 		BDA84A6328086B9A00C571A5 /* TestRXSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestRXSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDA84A6628086B9A00C571A5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BDA84A6828086B9A00C571A5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -38,6 +47,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3FA73D8C71FE82076D062A57 /* Pods_TestRXSwift.framework in Frameworks */,
+				BD81D314280EEC0D0011C5CE /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +71,52 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		BD03D23D280F041200D0BC82 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				BD03D241280F04DF00D0BC82 /* Unused */,
+				BD03D240280F04C800D0BC82 /* Main */,
+				BD03D23E280F043E00D0BC82 /* CoinBase */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		BD03D23E280F043E00D0BC82 /* CoinBase */ = {
+			isa = PBXGroup;
+			children = (
+				BD03D23F280F044E00D0BC82 /* Cell */,
+				BD81D316280EEDD10011C5CE /* CoinBaseViewController.swift */,
+				BD81D317280EEDD10011C5CE /* CoinBaseViewController.xib */,
+			);
+			path = CoinBase;
+			sourceTree = "<group>";
+		};
+		BD03D23F280F044E00D0BC82 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				BD03D239280EF48600D0BC82 /* CoinTableViewCell.swift */,
+				BD03D23A280EF48600D0BC82 /* CoinTableViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		BD03D240280F04C800D0BC82 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				BDA84A6A28086B9A00C571A5 /* ViewController.swift */,
+				BDA84A6C28086B9A00C571A5 /* Main.storyboard */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		BD03D241280F04DF00D0BC82 /* Unused */ = {
+			isa = PBXGroup;
+			children = (
+				BDA84A7A280995F900C571A5 /* SecondViewController.swift */,
+			);
+			path = Unused;
+			sourceTree = "<group>";
+		};
 		BDA84A5A28086B9A00C571A5 = {
 			isa = PBXGroup;
 			children = (
@@ -82,11 +138,9 @@
 		BDA84A6528086B9A00C571A5 /* TestRXSwift */ = {
 			isa = PBXGroup;
 			children = (
+				BD03D23D280F041200D0BC82 /* Application */,
 				BDA84A6628086B9A00C571A5 /* AppDelegate.swift */,
 				BDA84A6828086B9A00C571A5 /* SceneDelegate.swift */,
-				BDA84A6A28086B9A00C571A5 /* ViewController.swift */,
-				BDA84A7A280995F900C571A5 /* SecondViewController.swift */,
-				BDA84A6C28086B9A00C571A5 /* Main.storyboard */,
 				BDA84A6F28086B9C00C571A5 /* Assets.xcassets */,
 				BDA84A7128086B9C00C571A5 /* LaunchScreen.storyboard */,
 				BDA84A7428086B9C00C571A5 /* Info.plist */,
@@ -112,6 +166,9 @@
 			dependencies = (
 			);
 			name = TestRXSwift;
+			packageProductDependencies = (
+				BD81D313280EEC0D0011C5CE /* Alamofire */,
+			);
 			productName = TestRXSwift;
 			productReference = BDA84A6328086B9A00C571A5 /* TestRXSwift.app */;
 			productType = "com.apple.product-type.application";
@@ -140,6 +197,9 @@
 				Base,
 			);
 			mainGroup = BDA84A5A28086B9A00C571A5;
+			packageReferences = (
+				BD81D312280EEC0D0011C5CE /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = BDA84A6428086B9A00C571A5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -156,6 +216,8 @@
 			files = (
 				BDA84A7328086B9C00C571A5 /* LaunchScreen.storyboard in Resources */,
 				BDA84A7028086B9C00C571A5 /* Assets.xcassets in Resources */,
+				BD03D23C280EF48600D0BC82 /* CoinTableViewCell.xib in Resources */,
+				BD81D319280EEDD10011C5CE /* CoinBaseViewController.xib in Resources */,
 				BDA84A6E28086B9A00C571A5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -209,7 +271,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD03D23B280EF48600D0BC82 /* CoinTableViewCell.swift in Sources */,
 				BDA84A7B280995F900C571A5 /* SecondViewController.swift in Sources */,
+				BD81D318280EEDD10011C5CE /* CoinBaseViewController.swift in Sources */,
 				BDA84A6B28086B9A00C571A5 /* ViewController.swift in Sources */,
 				BDA84A6728086B9A00C571A5 /* AppDelegate.swift in Sources */,
 				BDA84A6928086B9A00C571A5 /* SceneDelegate.swift in Sources */,
@@ -369,6 +433,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -397,6 +462,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -432,6 +498,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		BD81D312280EEC0D0011C5CE /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		BD81D313280EEC0D0011C5CE /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BD81D312280EEC0D0011C5CE /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = BDA84A5B28086B9A00C571A5 /* Project object */;
 }

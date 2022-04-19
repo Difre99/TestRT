@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CoinBaseViewController" customModule="TestRXSwift" customModuleProvider="target">
+            <connections>
+                <outlet property="coinsTableView" destination="ZTX-B0-p0b" id="dhE-g4-iYr"/>
+                <outlet property="view" destination="7oG-0c-AGZ" id="NfQ-gz-d3Y"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="7oG-0c-AGZ">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="ZTX-B0-p0b">
+                    <rect key="frame" x="0.0" y="204" width="414" height="658"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                </tableView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CoinBase" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bUN-9I-xwn">
+                    <rect key="frame" x="40" y="44" width="334" height="38.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="8MA-2N-ozt"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="8MA-2N-ozt" firstAttribute="trailing" secondItem="bUN-9I-xwn" secondAttribute="trailing" constant="40" id="72f-LD-E63"/>
+                <constraint firstItem="bUN-9I-xwn" firstAttribute="top" secondItem="8MA-2N-ozt" secondAttribute="top" id="GMI-aD-n0L"/>
+                <constraint firstItem="ZTX-B0-p0b" firstAttribute="top" secondItem="8MA-2N-ozt" secondAttribute="top" constant="160" id="GMc-H3-IDm"/>
+                <constraint firstItem="ZTX-B0-p0b" firstAttribute="leading" secondItem="8MA-2N-ozt" secondAttribute="leading" id="fLa-ZC-cAD"/>
+                <constraint firstItem="8MA-2N-ozt" firstAttribute="bottom" secondItem="ZTX-B0-p0b" secondAttribute="bottom" id="nJu-pG-q6i"/>
+                <constraint firstItem="bUN-9I-xwn" firstAttribute="leading" secondItem="8MA-2N-ozt" secondAttribute="leading" constant="40" id="q4g-7X-zcG"/>
+                <constraint firstItem="8MA-2N-ozt" firstAttribute="trailing" secondItem="ZTX-B0-p0b" secondAttribute="trailing" id="ziV-Z1-hy6"/>
+            </constraints>
+            <point key="canvasLocation" x="-351" y="197"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
