@@ -17,6 +17,7 @@ class CoinBaseViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        CoinBase.shared
         registerTableViewCell()
     }
     
