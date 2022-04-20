@@ -32,14 +32,14 @@ class ViewController: UIViewController {
         Observable<Int>.interval(.milliseconds(500), scheduler: scheduler)
             .subscribe { event in
                 self.a += 1
-                print(event)
+//                print(event)
             }
             .disposed(by: disposeBag)
     }
     
     override func viewWillDisappear(_ animated: Bool) {
         super.viewWillDisappear(animated)
-        print("Deallocated DisposeBag")
+//        print("Deallocated DisposeBag")
         self.disposeBag = nil
         self.subscription?.dispose()
     }

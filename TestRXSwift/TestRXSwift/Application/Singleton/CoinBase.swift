@@ -7,45 +7,45 @@
 
 import Foundation
 import Alamofire
+import RxSwift
 
-struct Coin: Decodable{
+struct CoinResponse: Codable{
+    let data: [Coin]?
+}
+
+struct Coin: Codable{
     let id: String?
     let name: String?
-    let min_size: Float?
+    let min_size: String?
 }
 
 class CoinBase{
     
     static let shared = CoinBase()
-    private var coins: [Coin] = []
+    var coins: [Coin] = []
+    
     
     private init (){
-//        let request = AF.request("https://api.coinbase.com/v2/currencies", method: .get)
-//            request.responseJSON { (data) in
-////                coins = try JSONDecoder().decode([Coin].self, from: data)
-//                print(data)
-//            }
-        
-        
-        AF.request("https://api.coinbase.com/v2/currencies", method: .get, headers: nil)
-         .validate()
-         .responseJSON { response in
-
-            switch (response.result) {
-
-                case .success( _):
-
-                do {
-                    let users = try JSONDecoder().decode([Coin].self, from: response.data!)
-                    print(users)
-
-                } catch let error as NSError {
-                    print("Failed to load: \(error.localizedDescription)")
+        let endpoint = "https://api.coinbase.com/v2/currencies"
+        AF.request(endpoint, method: .get).responseJSON { response in
+            guard let itemsData = response.data else {
+                print("Fail")
+              return
+            }
+            do {
+                let decoder = JSONDecoder()
+                //TODO: -Fare con observable
+                let items: CoinResponse = try decoder.decode(CoinResponse.self, from: itemsData)
+                DispatchQueue.main.async {
+                    self.coins = items.data!
+//                    print(self.coins)
+                    print("Succes")
                 }
-
-                 case .failure(let error):
-                    print("Request error: \(error.localizedDescription)")
-             }
-         }
+                
+            } catch {
+                print("Fail \(error)")
+            }
+        }
     }
 }
+
