@@ -53,12 +53,12 @@ class ViewController: UIViewController {
         self.subscription =  Observable<Int>.interval(.milliseconds(500), scheduler: scheduler)
             .subscribe { event in
                 self.a += 1
-                print(event)
+//                print(event)
             }
-        print("CIAO1")
+//        print("CIAO1")
         Thread.sleep(forTimeInterval: 2.0)
-        print("CIAO2")
-        print("CIAO3")
+//        print("CIAO2")
+//        print("CIAO3")
         /*
          out:
          CIAO1

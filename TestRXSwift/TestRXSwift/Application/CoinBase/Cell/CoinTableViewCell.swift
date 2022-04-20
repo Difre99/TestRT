@@ -20,13 +20,13 @@ class CoinTableViewCell: UITableViewCell {
         // Initialization code
     }
 
-    override func setSelected(_ selected: Bool, animated: Bool) {
-        super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
+    var coin: Coin! {
+        didSet {
+            configureCell()
+        }
     }
     
-    func configureCell(coin: Coin) {
+    func configureCell() {
         print("configureCell")
         idLabel.text = coin.id
         nameLabel.text = coin.name

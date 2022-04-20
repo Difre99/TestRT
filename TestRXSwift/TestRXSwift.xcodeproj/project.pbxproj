@@ -11,6 +11,7 @@
 		BD03D23B280EF48600D0BC82 /* CoinTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD03D239280EF48600D0BC82 /* CoinTableViewCell.swift */; };
 		BD03D23C280EF48600D0BC82 /* CoinTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD03D23A280EF48600D0BC82 /* CoinTableViewCell.xib */; };
 		BD03D244280F06B300D0BC82 /* CoinBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD03D243280F06B300D0BC82 /* CoinBase.swift */; };
+		BD03D24928104B0B00D0BC82 /* CoinBaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD03D24828104B0B00D0BC82 /* CoinBaseViewModel.swift */; };
 		BD81D314280EEC0D0011C5CE /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = BD81D313280EEC0D0011C5CE /* Alamofire */; };
 		BD81D318280EEDD10011C5CE /* CoinBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD81D316280EEDD10011C5CE /* CoinBaseViewController.swift */; };
 		BD81D319280EEDD10011C5CE /* CoinBaseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD81D317280EEDD10011C5CE /* CoinBaseViewController.xib */; };
@@ -30,6 +31,7 @@
 		BD03D239280EF48600D0BC82 /* CoinTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinTableViewCell.swift; sourceTree = "<group>"; };
 		BD03D23A280EF48600D0BC82 /* CoinTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CoinTableViewCell.xib; sourceTree = "<group>"; };
 		BD03D243280F06B300D0BC82 /* CoinBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinBase.swift; sourceTree = "<group>"; };
+		BD03D24828104B0B00D0BC82 /* CoinBaseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinBaseViewModel.swift; sourceTree = "<group>"; };
 		BD81D316280EEDD10011C5CE /* CoinBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinBaseViewController.swift; sourceTree = "<group>"; };
 		BD81D317280EEDD10011C5CE /* CoinBaseViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CoinBaseViewController.xib; sourceTree = "<group>"; };
 		BDA84A6328086B9A00C571A5 /* TestRXSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestRXSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -90,6 +92,7 @@
 				BD03D23F280F044E00D0BC82 /* Cell */,
 				BD81D316280EEDD10011C5CE /* CoinBaseViewController.swift */,
 				BD81D317280EEDD10011C5CE /* CoinBaseViewController.xib */,
+				BD03D24828104B0B00D0BC82 /* CoinBaseViewModel.swift */,
 			);
 			path = CoinBase;
 			sourceTree = "<group>";
@@ -284,6 +287,7 @@
 			files = (
 				BD03D23B280EF48600D0BC82 /* CoinTableViewCell.swift in Sources */,
 				BDA84A7B280995F900C571A5 /* SecondViewController.swift in Sources */,
+				BD03D24928104B0B00D0BC82 /* CoinBaseViewModel.swift in Sources */,
 				BD03D244280F06B300D0BC82 /* CoinBase.swift in Sources */,
 				BD81D318280EEDD10011C5CE /* CoinBaseViewController.swift in Sources */,
 				BDA84A6B28086B9A00C571A5 /* ViewController.swift in Sources */,
