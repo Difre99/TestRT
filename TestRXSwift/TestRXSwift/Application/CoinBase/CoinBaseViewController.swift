@@ -26,6 +26,10 @@ class CoinBaseViewController: UIViewController {
         //        setupCellTapHandling()
     }
     
+    @IBAction func buttonReloadData(_ sender: Any) {
+        CoinBase.shared.callApi(refresh: true)
+        coinsTableView.reloadData()
+    }
     
     private func bindTableView() {
         print("bindTableView")

@@ -30,19 +30,31 @@
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
                 </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4i6-Pm-Px5">
+                    <rect key="frame" x="132" y="115" width="150" height="31"/>
+                    <state key="normal" title="Button"/>
+                    <buttonConfiguration key="configuration" style="plain" title="Table reload"/>
+                    <connections>
+                        <action selector="buttonReloadData:" destination="-1" eventType="touchUpInside" id="LbC-hL-4sf"/>
+                    </connections>
+                </button>
             </subviews>
             <viewLayoutGuide key="safeArea" id="8MA-2N-ozt"/>
             <color key="backgroundColor" systemColor="systemOrangeColor"/>
             <constraints>
+                <constraint firstItem="4i6-Pm-Px5" firstAttribute="leading" secondItem="8MA-2N-ozt" secondAttribute="leading" constant="132" id="1Y4-W6-KmC"/>
                 <constraint firstItem="8MA-2N-ozt" firstAttribute="trailing" secondItem="bUN-9I-xwn" secondAttribute="trailing" constant="40" id="72f-LD-E63"/>
                 <constraint firstItem="bUN-9I-xwn" firstAttribute="top" secondItem="8MA-2N-ozt" secondAttribute="top" id="GMI-aD-n0L"/>
                 <constraint firstItem="ZTX-B0-p0b" firstAttribute="top" secondItem="8MA-2N-ozt" secondAttribute="top" constant="160" id="GMc-H3-IDm"/>
+                <constraint firstItem="8MA-2N-ozt" firstAttribute="trailing" secondItem="4i6-Pm-Px5" secondAttribute="trailing" constant="132" id="Shj-f4-5vG"/>
+                <constraint firstItem="ZTX-B0-p0b" firstAttribute="top" secondItem="4i6-Pm-Px5" secondAttribute="bottom" constant="58" id="T4A-pP-G28"/>
                 <constraint firstItem="ZTX-B0-p0b" firstAttribute="leading" secondItem="8MA-2N-ozt" secondAttribute="leading" id="fLa-ZC-cAD"/>
                 <constraint firstItem="8MA-2N-ozt" firstAttribute="bottom" secondItem="ZTX-B0-p0b" secondAttribute="bottom" id="nJu-pG-q6i"/>
                 <constraint firstItem="bUN-9I-xwn" firstAttribute="leading" secondItem="8MA-2N-ozt" secondAttribute="leading" constant="40" id="q4g-7X-zcG"/>
+                <constraint firstItem="4i6-Pm-Px5" firstAttribute="top" secondItem="bUN-9I-xwn" secondAttribute="bottom" constant="32.5" id="ziS-bp-OKZ"/>
                 <constraint firstItem="8MA-2N-ozt" firstAttribute="trailing" secondItem="ZTX-B0-p0b" secondAttribute="trailing" id="ziV-Z1-hy6"/>
             </constraints>
-            <point key="canvasLocation" x="-351" y="197"/>
+            <point key="canvasLocation" x="-352.17391304347831" y="196.875"/>
         </view>
     </objects>
     <resources>
